@@ -1,5 +1,6 @@
 package com.tcf2j.powerof1;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -10,8 +11,10 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.tcf2j.powerof1.Quiz.StartQuizActivity;
+
 public class MainActivity extends AppCompatActivity {
-    private DrawerLayout drawerLayout;
+    protected DrawerLayout drawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +39,15 @@ public class MainActivity extends AppCompatActivity {
                         menuItem.setChecked(true);
                         //close drawer when item is selected
                         drawerLayout.closeDrawers();
+                        switch(menuItem.getItemId()){
+                            case 1:// resources button
+                                break;
+                            case 2: // Education  button
+                                break;
+                            case R.id.relationshipQuiz: // Relationship Quiz button
+                            startQuiz();
+                            break;
+                        }
 
 
 
@@ -58,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+    private void startQuiz() {
+        Intent intent = new Intent(MainActivity.this, StartQuizActivity.class);
+        startActivity(intent);
+    }
 
 }
