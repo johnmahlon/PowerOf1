@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/quiz_m"
+            android:icon="@drawable/ic_pencil_black_24dp"
+            android:title="Relationship Quiz"/>
 
         <item
             android:id="@+id/resources"
             android:icon="@drawable/ic_group_black_24dp"
             android:title="Resources"/>
+
         <item
-            android:id="@+id/education"
+            android:id="@+id/active_m"
+            android:icon="@drawable/ic_hand_black_24dp"
+            android:title="Active Bystander"/>
+
+        <item
+            android:id="@+id/consent_m"
+            android:icon="@drawable/ic_check_black_24dp"
+            android:title="Consent"/>
+
+        <item
+            android:id="@+id/dating_m"
+            android:icon="@drawable/ic_warning_black_24dp"
+            android:title="Dating Violence"/>
+
+        <item
+            android:id="@+id/sexual_m"
             android:icon="@drawable/ic_school_black"
-            android:title="Education"/>
+            android:title="Sexual Assualt"/>
+
         <item
-            android:id="@+id/relationshipQuiz"
-            android:icon="@drawable/ic_menu_send"
-            android:title="Relationship Quiz"/>
+            android:id="@+id/stalking_m"
+            android:icon="@drawable/ic_walk_black_24dp"
+            android:title="Stalking"/>
 
 
-        
+
+
+
 
     </group>
 

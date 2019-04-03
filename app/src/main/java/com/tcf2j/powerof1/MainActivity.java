@@ -40,13 +40,34 @@ public class MainActivity extends AppCompatActivity {
                         //close drawer when item is selected
                         drawerLayout.closeDrawers();
                         switch(menuItem.getItemId()){
-                            case 1:// resources button
+                            case R.id.home: // Home button
+                                goHome();
                                 break;
-                            case 2: // Education  button
-                                break;
-                            case R.id.relationshipQuiz: // Relationship Quiz button
+
+                            case R.id.quiz_m: // Relationship Quiz button
                             startQuiz();
                             break;
+
+                            case R.id.resources: // Resources  button
+                                break;
+
+                            case R.id.active_m: // Active Bystander  button
+                                break;
+
+                            case R.id.consent_m: // Consent  button
+                                break;
+
+                            case R.id.dating_m: // Dating Violence  button
+                                break;
+
+                            case R.id.sexual_m: // Sexual Assualt  button
+                                break;
+
+                            case R.id.stalking_m: // Stalking  button
+                                break;
+
+
+
                         }
 
 
@@ -69,6 +90,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
 
 
+    }
+    private void goHome() {
+        Intent intent = new Intent(MainActivity.this, MainActivity.class);
+        startActivity(intent);
     }
     private void startQuiz() {
         Intent intent = new Intent(MainActivity.this, StartQuizActivity.class);
