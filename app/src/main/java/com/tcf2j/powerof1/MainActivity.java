@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                             break;
 
                             case R.id.resources: // Resources  button
+                                resources();
                                 break;
 
                             case R.id.active_m: // Active Bystander  button
@@ -100,4 +101,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    private void resources() {
+        Intent intent = new Intent(MainActivity.this, Resources.class);
+        startActivity(intent);
+    }
 }

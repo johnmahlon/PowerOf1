@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Quiz.Congratulations"></activity>
+        <activity android:name=".Resources"></activity>
+        <activity android:name=".Quiz.Congratulations" />
         <activity android:name=".Quiz.QuizActivity" />
         <activity android:name=".Quiz.StartQuizActivity" />
         <activity android:name=".MainActivity">
