@@ -12,7 +12,7 @@ public class Stalking extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View contentView = inflater.inflate(R.layout.activity_quiz, null, false);
+        View contentView = inflater.inflate(R.layout.activity_stalking, null, false);
         drawerLayout.addView(contentView, 0);
         //setContentView(R.layout.activity_stalking);
     }

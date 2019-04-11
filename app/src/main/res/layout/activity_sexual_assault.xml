@@ -69,7 +69,7 @@
 
             <TextView
                 android:id="@+id/needsupp"
-                android:layout_width="272dp"
+               android:layout_width="272dp"
                 android:layout_height="627dp"
                 android:layout_marginStart="47dp"
                 android:layout_marginLeft="47dp"

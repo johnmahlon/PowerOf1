@@ -59,12 +59,15 @@ public class MainActivity extends AppCompatActivity {
                                 break;
 
                             case R.id.dating_m: // Dating Violence  button
+                                DatingViolence();
                                 break;
 
                             case R.id.sexual_m: // Sexual Assualt  button
+                                SexualAssault();
                                 break;
 
                             case R.id.stalking_m: // Stalking  button
+                                Stalking();
                                 break;
 
 
@@ -103,6 +106,19 @@ public class MainActivity extends AppCompatActivity {
 
     private void resources() {
         Intent intent = new Intent(MainActivity.this, Resources.class);
+        startActivity(intent);
+    }
+
+    private void SexualAssault() {
+        Intent intent = new Intent(MainActivity.this, SexualAssault.class);
+        startActivity(intent);
+    }
+    private void DatingViolence() {
+        Intent intent = new Intent(MainActivity.this, DatingViolence.class);
+        startActivity(intent);
+    }
+    private void Stalking() {
+        Intent intent = new Intent(MainActivity.this, Stalking.class);
         startActivity(intent);
     }
 }
