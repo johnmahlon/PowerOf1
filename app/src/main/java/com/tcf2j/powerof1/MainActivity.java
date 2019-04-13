@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                                 break;
 
                             case R.id.active_m: // Active Bystander  button
+                                ActiveBystander();
                                 break;
 
                             case R.id.consent_m: // Consent  button
@@ -62,16 +63,13 @@ public class MainActivity extends AppCompatActivity {
                                 DatingViolence();
                                 break;
 
-                            case R.id.sexual_m: // Sexual Assualt  button
+                            case R.id.sexual_m: // Sexual Assault  button
                                 SexualAssault();
                                 break;
 
                             case R.id.stalking_m: // Stalking  button
                                 Stalking();
                                 break;
-
-
-
                         }
 
 
@@ -119,6 +117,10 @@ public class MainActivity extends AppCompatActivity {
     }
     private void Stalking() {
         Intent intent = new Intent(MainActivity.this, Stalking.class);
+        startActivity(intent);
+    }
+    private void ActiveBystander() {
+        Intent intent = new Intent(MainActivity.this, ActiveBystander.class);
         startActivity(intent);
     }
 }
