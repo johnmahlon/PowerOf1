@@ -14,6 +14,7 @@
         <activity android:name=".DatingViolence"/>
         <activity android:name=".Stalking"/>
         <activity android:name=".ActiveBystander"/>
+        <activity android:name=".Consent"/>
         <activity android:name=".Quiz.Congratulations" />
         <activity android:name=".Quiz.QuizActivity" />
         <activity android:name=".Quiz.StartQuizActivity" />

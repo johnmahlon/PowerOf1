@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                                 break;
 
                             case R.id.consent_m: // Consent  button
+                                Consent();
                                 break;
 
                             case R.id.dating_m: // Dating Violence  button
@@ -121,6 +122,10 @@ public class MainActivity extends AppCompatActivity {
     }
     private void ActiveBystander() {
         Intent intent = new Intent(MainActivity.this, ActiveBystander.class);
+        startActivity(intent);
+    }
+    private void Consent() {
+        Intent intent = new Intent(MainActivity.this, Consent.class);
         startActivity(intent);
     }
 }
