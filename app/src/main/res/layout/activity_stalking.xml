@@ -40,7 +40,7 @@
                 android:layout_marginLeft="48dp"
                 android:layout_marginEnd="45dp"
                 android:layout_marginRight="45dp"
-                android:text="Stalking​​is a pattern of repeated, unwanted attention, communication, or contactby a person that would cause a reasonable person to feel fear or concern for one’sown safety or the safety of someone close to the victim."
+                android:text="Stalking​​ is a pattern of repeated, unwanted attention, communication, or contact by a person that would cause a reasonable person to feel fear or concern for one’s own safety or the safety of someone close to the victim."
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.391"
@@ -65,19 +65,54 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
             <TextView
-                android:id="@+id/needsupp"
-                android:layout_width="296dp"
-                android:layout_height="566dp"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="47dp"
                 android:layout_marginLeft="47dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginEnd="48dp"
                 android:layout_marginRight="48dp"
-                android:text="                     If You Are A Victim: \n •  Know that you are not to blame. Abuse is never the fault of the victim. \n •  Get medical treatment if you are hurt.  •  Tell a trusted friend or family member.\n •  Seek help. You can reach out to your campus sexual assault advocate or the local Sexual Assault and Domestic Violence Center even if you are not sure if what you have experiencedis gender-based violence.  \n                     How To Support A Friend:\n •  Believe them. Don't ask them to describe what happened or ask judgmental questions. You can say, 'I Believe you' \n  •  Remind them that it is not their fault.The responsibility for an assault always completely lies on the perpetrator. You can say, 'I'm sorry that someone hurt you' \n •  Listen. Let your friend know that you care andthat you are available to them when they want to talk. You can say, 'Thank you for trusting me with your story.' \n •  Suggest resources. Examples include talking to your RA, a counselor, or the campus sexual assault advocate. \n •  Let them make their own decision. If your friend is dealing with a controlling and manipulative partner, the last thing they need is for you to mimic those behaviors by forcefully telling them what to do. You can say, 'I support you, whatever you choose to do next.'     "
+                android:text="If You Are A Victim:"
+                tools:text="If You Are a Victim" />
+
+            <TextView
+                android:id="@+id/needsupp"
+                android:layout_width="272dp"
+                android:layout_height="176dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text=" •  Know that you are not to blame. Abuse is never the fault of the victim. \n •  Get medical treatment if you are hurt. \n •  Tell a trusted friend or family member.\n •  Seek help. You can reach out to your campus sexual assault advocate or the local Sexual Assault and Domestic Violence Center even if you are not sure if what you have experienced is gender-based violence."
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/needSupport" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="How To Support A Friend:" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:textColor="#000000"
+                android:text=" •  Believe them. Don't ask them to describe what happened or ask judgmental questions. You can say, 'I Believe you' \n  •  Remind them that it is not their fault.The responsibility for an assault always completely lies on the perpetrator. You can say, 'I'm sorry that someone hurt you' \n •  Listen. Let your friend know that you care and that you are available to them when they want to talk. You can say, 'Thank you for trusting me with your story.' \n •  Suggest resources. Examples include talking to your RA, a counselor, or the campus sexual assault advocate. \n •  Let them make their own decision. If your friend is dealing with a controlling and manipulative partner, the last thing they need is for you to mimic those behaviors by forcefully telling them what to do. You can say, 'I support you, whatever you choose to do next. "     />
 
         </LinearLayout>
     </ScrollView>
