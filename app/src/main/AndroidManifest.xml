@@ -11,6 +11,12 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity android:name=".HomePage"></activity>
+        <activity android:name=".ActiveBystander"></activity>
+        <activity android:name=".Consent" ></activity>
+        <activity android:name=".DatingViolence"></activity>
+        <activity android:name=".Resources"></activity>
+        <activity android:name=".SexualAssault"></activity>
+        <activity android:name=".Stalking"></activity>
         <activity android:name=".Quiz.Congratulations" />
         <activity android:name=".Quiz.QuizActivity" />
         <activity android:name=".Quiz.StartQuizActivity" />
