@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         //makes the toolbar the appbar and selects drawer icon
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -92,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void goHome() {
-        Intent intent = new Intent(MainActivity.this, MainActivity.class);
+        Intent intent = new Intent(MainActivity.this, HomePage.class);
         startActivity(intent);
     }
     private void startQuiz() {
