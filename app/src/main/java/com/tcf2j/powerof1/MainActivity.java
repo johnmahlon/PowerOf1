@@ -50,25 +50,28 @@ public class MainActivity extends AppCompatActivity {
                             break;
 
                             case R.id.resources: // Resources  button
+                                resources();
                                 break;
 
                             case R.id.active_m: // Active Bystander  button
+                                ActiveBystander();
                                 break;
 
                             case R.id.consent_m: // Consent  button
+                                Consent();
                                 break;
 
                             case R.id.dating_m: // Dating Violence  button
+                                DatingViolence();
                                 break;
 
-                            case R.id.sexual_m: // Sexual Assualt  button
+                            case R.id.sexual_m: // Sexual Assault  button
+                                SexualAssault();
                                 break;
 
                             case R.id.stalking_m: // Stalking  button
+                                Stalking();
                                 break;
-
-
-
                         }
 
 
@@ -101,4 +104,29 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    private void resources() {
+        Intent intent = new Intent(MainActivity.this, Resources.class);
+        startActivity(intent);
+    }
+
+    private void SexualAssault() {
+        Intent intent = new Intent(MainActivity.this, SexualAssault.class);
+        startActivity(intent);
+    }
+    private void DatingViolence() {
+        Intent intent = new Intent(MainActivity.this, DatingViolence.class);
+        startActivity(intent);
+    }
+    private void Stalking() {
+        Intent intent = new Intent(MainActivity.this, Stalking.class);
+        startActivity(intent);
+    }
+    private void ActiveBystander() {
+        Intent intent = new Intent(MainActivity.this, ActiveBystander.class);
+        startActivity(intent);
+    }
+    private void Consent() {
+        Intent intent = new Intent(MainActivity.this, Consent.class);
+        startActivity(intent);
+    }
 }

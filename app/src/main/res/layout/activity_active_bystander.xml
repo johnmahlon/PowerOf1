@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActiveBystander">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Active Bystander"
+                android:textColor="#4169E1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/definition"
+                android:layout_width="295dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:text="An active bystander is a person who is present at an event or incident and who steps in to intervene or disrupt a potentially harmful situation if s(he) feels they can do so safely. Bystanders may call the police for help."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.391"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
+
+            <TextView
+                android:id="@+id/howText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginRight="130dp"
+                android:text="How Can I Be an Active Bystander?"
+                android:textColor="#4169E1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/definition" />
+
+            <TextView
+                android:id="@+id/whenText"
+                android:layout_width="296dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="When you see a potentially unsafe situation...\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/howText" />
+
+            <TextView
+                android:id="@+id/directText"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="  • Direct - Step in and address the situation directly."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#4169E1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whenText" />
+
+            <TextView
+                android:id="@+id/directExampleText"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Example: &quot;That's not cool. Please stop.&quot; or &quot;Hey, leave them alone.&quot;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/directText" />
+
+            <TextView
+                android:id="@+id/distractText"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="  • Distract - Create a distraction to suppress the situation."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#4169E1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/directExampleText" />
+
+            <TextView
+                android:id="@+id/distractExampleText"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Example: &quot;Hey, aren't you in my Spanish class?&quot;"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/distractText" />
+
+            <TextView
+                android:id="@+id/delegateText"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="  • Delegate - Find someone who can help you intervene."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#4169E1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/distractExampleText" />
+
+            <TextView
+                android:id="@+id/delegateExampleText"
+                android:layout_width="296dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Example: You could contact and R.A., a campus police officer, or faculty or staff member."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/delegateText" />
+
+            <TextView
+                android:id="@+id/delayText"
+                android:layout_width="296dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="  • Delay - It may be best to delay any action for a few minutes."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#4169E1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/delegateExampleText" />
+
+            <TextView
+                android:id="@+id/delayExampleText"
+                android:layout_width="296dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Example: If you are in a group, you could delay your intervention by asking the person to use the restroom with you."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/delayText" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

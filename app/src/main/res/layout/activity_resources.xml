@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Resources">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="261dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="91dp"
+                android:layout_marginLeft="91dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:text="@string/resources"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/resource1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="@string/to_talk_to_someone_immediately_during_a_crisis"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/resource1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/sexual_assault_24_hour_crisis_line_615_494_9262"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/domestic_violence_24_hour_crisis_line_615_896_2012"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="@string/to_talk_to_someone_confidentially"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/resource2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/mtsu_sexual_assault_advocate_nmiller_education_center_503_east_bell_st_n_615_715_2870"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/mtsu_counseling_services_nkeathley_university_center_room_326_s_n_615_898_2670"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/mtsu_counseling_and_psychological_services_nmiller_education_center_503_east_bell_st_n_615_898_2271"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="@string/to_receive_sti_or_pregnancy_testing"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/resource3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/mtsu_student_health_services_confidential_nhealth_wellness_and_recreation_center_n_615_898_2988"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="@string/to_receive_medical_treatment_or_rape_kit"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/resource4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/domestic_violence_and_sexual_assault_program_n2106_e_main_street_24_hour_crisis_line_n_615_494_9262"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/st_thomas_rutherford_hospital_sart_program_n1700_medical_center_parkway_n615_396_4100"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="@string/to_report_an_incident_to_the_university"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/resource5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="web|phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/title_ix_coordinator_ncope_administration_building_room_116_nhttps_www_mtsu_edu_titleix_or_615_898_2185"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="@string/to_report_an_incident_to_the_police"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/resource6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/mtsu_police_615_898_2424_nmurfreesboro_police_615_893_1311"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/resource7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="@string/to_receive_academic_accomodations"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/resource7a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/disability_access_center_615_898_2783_nkeathley_university_center_room_107"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/resource8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="@string/other_resources"
+                android:textAllCaps="false"
+                android:textColor="#4169E1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/resource8a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="serif"
+                android:text="@string/mtsu_student_judicial_affairs_615_898_2440"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:clickable="@tools:sample/us_phones" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

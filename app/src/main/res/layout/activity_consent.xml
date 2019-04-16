@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Consent"
+                android:textColor="#4169E1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/definition"
+                android:layout_width="295dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:text="Consent is a clear and unambiguous agreement, expressed outwardly through mutually understandable words or actions, to engage in a particular activity. Consent can be withdrawn by either party at any point. Consent must be voluntarily given and may not be valid if a person is being subjected to actions or behaviours that elicit emotional, psychological, physical, reputational, financial pressure, threat, intimidation, or fear (coercion of force)."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.391"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

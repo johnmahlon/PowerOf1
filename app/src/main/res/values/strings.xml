@@ -7,4 +7,29 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="spinner_title" />
+    <string name="resources">Resources</string>
+    <string name="to_talk_to_someone_immediately_during_a_crisis">To talk to someone immediately during a crisis:</string>
+    <string name="to_talk_to_someone_confidentially">To talk to someone confidentially:</string>
+    <string name="to_receive_sti_or_pregnancy_testing">To receive STI or pregnancy testing:</string>
+    <string name="to_receive_medical_treatment_or_rape_kit">To receive medical treatment or rape kit:</string>
+    <string name="mtsu_counseling_and_psychological_services_nmiller_education_center_503_east_bell_st_n_615_898_2271">• MTSU Counseling and Psychological Services  Miller Education Center, 503 East Bell St.  (615) 898-2271</string>
+    <string name="mtsu_counseling_services_nkeathley_university_center_room_326_s_n_615_898_2670">• MTSU Counseling Services.  Keathley University Center, Room 326-S  (615) 898-2670</string>
+    <string name="mtsu_sexual_assault_advocate_nmiller_education_center_503_east_bell_st_n_615_715_2870">• MTSU Sexual Assault Advocate.  Miller Education Center, 503 East Bell St.  (615) 715-2870</string>
+    <string name="domestic_violence_24_hour_crisis_line_615_896_2012">• Domestic Violence 24-hour crisis line, (615) 896-2012</string>
+    <string name="sexual_assault_24_hour_crisis_line_615_494_9262">• Sexual Assault 24-hour crisis line, (615) 494-9262</string>
+    <string name="mtsu_student_health_services_confidential_nhealth_wellness_and_recreation_center_n_615_898_2988">• MTSU Student Health Services (confidential)  Health, Wellness, and Recreation Center  (615) 898-2988</string>
+    <string name="domestic_violence_and_sexual_assault_program_n2106_e_main_street_24_hour_crisis_line_n_615_494_9262">• Domestic Violence and Sexual Assault Program.  2106 E. Main Street 24-hour crisis line:  (615) 494-9262</string>
+    <string name="title_ix_coordinatorcope_nadministration_building_room_116_nhttps_www_mtsu_edu_titleix_or_615_898_2185">• Title IX CoordinatorCope  Administration Building, Room 116  https://www.mtsu.edu/titleix or (615) 898-2185</string>
+    <string name="other_resources">Other resources:</string>
+    <string name="to_receive_academic_accomodations">To receive academic accomodations:</string>
+    <string name="to_report_an_incident_to_the_police">To report an incident to the police:</string>
+    <string name="to_report_an_incident_to_the_university">To report an incident to the university:</string>
+    <string name="_911">911</string>
+    <string name="title_ix_coordinator_ncope_administration_building_room_116_nhttps_www_mtsu_edu_titleix_or_615_898_2185">• Title IX Coordinator  Cope Administration Building, Room 116  https://www.mtsu.edu/titleix or (615) 898-2185</string>
+    <string name="mtsu_student_judicial_affairs_615_898_2440">• MTSU Student / Judicial Affairs (615) 898-2440</string>
+    <string name="mtsu_police_615_898_2424_nmurfreesboro_police_615_893_1311">• MTSU Police (615) 898-2424  Murfreesboro Police (615) 893-1311</string>
+    <string name="disability_access_center_615_898_2783_nkeathley_university_center_room_107">• Disability Access Center (615) 898-2783  Keathley University Center, Room 107</string>
+    <string name="st_thomas_rutherford_hospital_sart_program_n1700_medical_center_parkway_n615_396_4100">• St. Thomas Rutherford Hospital (SART Program)  1700 Medical Center Parkway,  615-396-4100</string>
+
 </resources>
