@@ -22,15 +22,15 @@
         tools:layout_editor_absoluteY="54dp">
 
         <android.support.v7.widget.CardView
+            android:id="@+id/ActiveByHomePageButton"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:id="@+id/ActiveBYPHomePButton"
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_marginStart="10dp">
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp">
 
             <LinearLayout
-
                 android:layout_width="match_parent"
                 android:layout_height="188dp"
                 android:gravity="center"
@@ -54,6 +54,7 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
+            android:id="@+id/ConsentHomePButton"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -61,7 +62,6 @@
             android:layout_marginStart="10dp">
 
             <LinearLayout
-                android:id="@+id/ConsentHomePButton"
                 android:layout_width="match_parent"
                 android:layout_height="188dp"
                 android:gravity="center"
@@ -101,10 +101,10 @@
             android:clickable="true"
             android:layout_width="160dp"
             android:layout_height="190dp"
+            android:id="@+id/DatingVHomePButton"
             android:layout_marginStart="10dp">
 
             <LinearLayout
-                android:id="@+id/DatingVHomePButton"
                 android:layout_width="match_parent"
                 android:layout_height="188dp"
                 android:gravity="center"
@@ -129,13 +129,12 @@
         <android.support.v7.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:id="@+id/ActiveByHomePageButton"
             android:layout_width="160dp"
+            android:id="@+id/SexAHomePButton"
             android:layout_height="190dp"
             android:layout_marginStart="10dp">
 
             <LinearLayout
-                android:id="@+id/SexAHomePButton"
                 android:layout_width="match_parent"
                 android:layout_height="188dp"
                 android:gravity="center"
@@ -175,11 +174,11 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="340dp"
+            android:id="@+id/StalkingHomePButton"
             android:layout_height="150dp"
             android:layout_marginStart="10dp">
 
             <LinearLayout
-                android:id="@+id/StalkingHomePButton"
                 android:layout_width="match_parent"
                 android:layout_height="188dp"
                 android:gravity="center"
