@@ -73,6 +73,7 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="48dp"
                 android:layout_marginRight="48dp"
+                android:textSize="18sp"
                 android:text="If You Are A Victim:"
                 tools:text="If You Are a Victim" />
 
@@ -86,9 +87,9 @@
                 android:layout_marginEnd="48dp"
                 android:layout_marginRight="48dp"
                 android:text=" •  Know that you are not to blame. Abuse is never the fault of the victim.
-•  Get medical treatment if you are hurt.
-•  Tell a trusted friend or family member.
-•  Seek help. You can reach out to your campus sexual assault advocate or the local Sexual Assault and Domestic Violence Center even if you are not sure if what you have experienced is gender-based violence."
+                \n•  Get medical treatment if you are hurt.
+                \n•  Tell a trusted friend or family member.
+                \n•  Seek help. You can reach out to your campus sexual assault advocate or the local Sexual Assault and Domestic Violence Center even if you are not sure if what you have experienced is gender-based violence."
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -103,6 +104,7 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="48dp"
                 android:layout_marginRight="48dp"
+                android:textSize="18sp"
                 android:text="How To Support A Friend:" />
 
             <TextView
@@ -116,10 +118,10 @@
                 android:layout_marginRight="48dp"
                 android:textColor="#000000"
                 android:text=" •  Believe them. Don't ask them to describe what happened or ask judgmental questions. You can say, 'I Believe you'
-•  Remind them that it is not their fault.The responsibility for an assault always completely lies on the perpetrator. You can say, 'I'm sorry that someone hurt you'
-•  Listen. Let your friend know that you care and that you are available to them when they want to talk. You can say, 'Thank you for trusting me with your story.'
-•  Suggest resources. Examples include talking to your RA, a counselor, or the campus sexual assault advocate.
-•  Let them make their own decision. If your friend is dealing with a controlling and manipulative partner, the last thing they need is for you to mimic those behaviors by forcefully telling them what to do. You can say, 'I support you, whatever you choose to do next. "     />
+                \n•  Remind them that it is not their fault.The responsibility for an assault always completely lies on the perpetrator. You can say, 'I'm sorry that someone hurt you'
+                \n•  Listen. Let your friend know that you care and that you are available to them when they want to talk. You can say, 'Thank you for trusting me with your story.'
+                \n•  Suggest resources. Examples include talking to your RA, a counselor, or the campus sexual assault advocate.
+                \n•  Let them make their own decision. If your friend is dealing with a controlling and manipulative partner, the last thing they need is for you to mimic those behaviors by forcefully telling them what to do. You can say, 'I support you, whatever you choose to do next. "     />
 
         </LinearLayout>
     </ScrollView>
